@@ -5,7 +5,7 @@ const ChartBar = props => {
     barFillHeight = Math.round((props.value / props.maxValue) * 100) + '%'
   }
   return (
-    <div className='px-9 py-5 flex flex-col items-center font-bold'>
+    <div className='flex w-1/6 md:w-1/12 py-3 flex-col items-center font-bold'>
       <div className='h-[12rem] w-6 bg-[#BBABF2] rounded-xl border-2 border-black flex items-end '>
         <div
           className='bg-[#380054] w-full rounded-xl transition-all duration-1000 max-h-full'

@@ -67,17 +67,17 @@ const NewExpenseForm = props => {
             onChange={dateChangeHandler}
           />
         </FormLabel>
-        <div className='w-[50%] flex items-end justify-end'>
+        <div className='lg:w-[50%] w-full flex lg:items-end lg:justify-end items-center justify-center'>
           <button
             type='button'
-            className='bg-[#380054] text-white text-2xl px-5 py-4 rounded-md mx-5'
+            className='bg-[#380054] text-white text-xl md:text-2xl px-5 py-4 rounded-md mx-5'
             onClick={cancelBtnHandler}
           >
             Cancel
           </button>
           <button
             type='submit'
-            className='bg-[#380054] text-white text-2xl px-5 py-4 rounded-md mx-5'
+            className='bg-[#380054] text-white text-xl md:text-2xl px-5 py-4 rounded-md mx-5'
           >
             Add Expense
           </button>

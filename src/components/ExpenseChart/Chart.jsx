@@ -5,7 +5,7 @@ const Chart = props => {
   const maxValue = Math.max(...dataValues)
 
   return (
-    <div className="flex justify-between w-full">
+    <div className="flex justify-between flex-wrap">
       {props.dataPoints.map(dataPoint => {
         return (
           <ChartBar
