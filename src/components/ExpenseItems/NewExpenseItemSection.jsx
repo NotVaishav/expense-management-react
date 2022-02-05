@@ -16,12 +16,11 @@ const NewExpenseItemSection = props => {
   const cancelBtnHandler = () => {
     setAddState(prevState => !prevState)
   }
-  console.log(props.lenOfElems + "from newexpenseitem")
   return (
     <>
       {addState ? (
         <NewExpenseItem
-          currLen={props.lenOfElems}
+          currLen={props.currLen}
           onElemAdd={testHandler}
           onCancelBtn={cancelBtnHandler}
         />
