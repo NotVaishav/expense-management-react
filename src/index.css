@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow: hidden;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #383638;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container-div::-webkit-scrollbar {
+  width: 14px;
+}
+
+/* Track */
+.container-div::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px grey;
+  border-radius: 5px;
+}
+
+/* Handle */
+.container-div::-webkit-scrollbar-thumb {
+  background: #9e86ec;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.container-div::-webkit-scrollbar-thumb:hover {
+  background: #7462b1;
+}
+
+.form-box input {
+  height: 3rem;
+  box-sizing: border-box;
+  padding: 0 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.form-box label {
+  color: black;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.form-box input:focus {
+  outline: none;
+  border: 2px solid #380054;
+}
+
+select option {
+  margin: 40px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  text-indent: 40%;
+}
