@@ -25,8 +25,9 @@ const NewExpenseForm = props => {
       title: title,
       amount: parseFloat(amount),
       date: new Date(date)
-    }
+    }    
     props.onSaveExpenseData(reqData)
+    props.onCancelBtn()
   }
 
   const cancelBtnHandler = () => {

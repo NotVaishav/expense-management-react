@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import NewExpenseItem from '../NewExpense/NewExpenseItem'
-import AddNewExpense from './components/AddNewExpense'
+import NewExpenseItem from './NewExpenseItem'
+import AddNewExpense from '../ExpenseItems/components/AddNewExpense'
 
 const NewExpenseItemSection = props => {
   const [addState, setAddState] = useState(false)

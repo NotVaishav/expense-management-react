@@ -2,7 +2,7 @@ import { useState } from 'react'
 import ExpenseChart from './components/ExpenseChart/ExpenseChart'
 import ExpenseFilter from './components/ExpenseFilters/ExpenseFilters'
 import ExpenseList from './components/ExpenseItems/ExpenseList'
-import NewExpenseItemSection from './components/ExpenseItems/NewExpenseItemSection'
+import NewExpenseItemSection from './components/NewExpense/NewExpenseItemSection'
 import Card from './components/UI/Card'
 import './index.css'
 
