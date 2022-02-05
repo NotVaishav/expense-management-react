@@ -20,7 +20,6 @@ const ExpenseChart = props => {
     const monthVal = each.date.getMonth()
     dataPoints[monthVal].value += each.amount
   }
-  console.log(dataPoints)
 
   return (
     <Card className='bg-[#F8DAFF] mx-3'>

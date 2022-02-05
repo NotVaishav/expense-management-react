@@ -5,7 +5,6 @@ import AddNewExpense from './components/AddNewExpense'
 const NewExpenseItemSection = props => {
   const [addState, setAddState] = useState(false)
   const testHandler = newEventData => {
-    console.log(newEventData)
     props.onElemAdd(newEventData)
   }
 
